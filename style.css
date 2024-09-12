@@ -1,38 +1,65 @@
-/*Definições gerais*/
+/* Definições gerais */
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*logo e nome do site*/
-#nome_logo {
-    display: inline;
+/* Barra de navegação */
+.nav img{
+  height: 70px; 
+  width: auto; 
 }
-
-
-
-/*Barra de navegação*/
-
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #399a3e;
-
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #60df10;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(85, 81, 81);
+  height: fit-content;
+  padding-right: 2.4rem; 
 }
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  color: #faf6f6;
+  display: flexbox;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav li a:hover {
+  background-color: #696464; 
+  border-radius: 10px; 
+}
+
+.titulo{
+  margin-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* CENTALIZANDO */
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 20px;
+  padding: 20px;
+  text-decoration: underline;
+  text-;
+}
+
