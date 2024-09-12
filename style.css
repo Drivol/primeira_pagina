@@ -48,18 +48,9 @@ body{
 
 }
 
-/* CENTALIZANDO */
+/* header */
 
-#container{
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  
 }
-
-h1{
-  margin: 20px;
-  padding: 20px;
-  text-decoration: underline;
-  text-;
-}
-
